@@ -61,9 +61,55 @@
 
 // Operators
 // Arithematic Operators
-console.log(5+10); // Sum 
-console.log(10-5); // Sub
-console.log(5*10); // Mul
-console.log(5/10); // Div -> Quotient
-console.log(10%3); // Reaminder
-console.log(2**4); // Power
+// console.log(5+10); // Sum 
+// console.log(10-5); // Sub
+// console.log(5*10); // Mul
+// console.log(5/10); // Div -> Quotient
+// console.log(10%3); // Reaminder
+// console.log(2**4); // Power
+
+
+// Unary Operator
+// Pre Increment
+let marks=10;
+// console.log(marks);
+// ++marks;
+// console.log(++marks); // preincrement
+// console.log(marks++); // post-increment
+// console.log(marks);  
+
+// console.log(--marks); // pre-decrement
+// console.log(marks);  
+
+// console.log(marks--); // post-decrement
+// console.log(marks);  
+
+// console.log(marks+=10); // Assignment operator
+// console.log(marks-=10); // Assignment operator
+// console.log(marks*=10); // Assignment operator
+// console.log(marks/=10); // Assignment operator
+// console.log(marks%=10); // Assignment operator
+
+// console.log(marks==10); // Comparison operator
+// console.log(5==5); // true
+// console.log('5'==5); // its still ture
+
+// but
+// console.log('5'!==5); // ture
+// console.log('5'!=5); // false
+
+// console.log('5'!==5); // its not  ture
+
+// Ternary Operator
+// let age=5;
+// let isVote=age>=18?"You can vote":"You can't vote";
+// console.log(isVote);
+
+// logical operator
+// console.log(!true);
+
+// console.log(false&&'krishna'); // output : false
+// console.log(true&&'krishna'); // output : krisna
+
+// console.log(5^5^6);
+// console.log(~0);
